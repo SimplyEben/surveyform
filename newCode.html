@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey</title>
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This is code i'm writing is for the certification on my first task on FreeCodeCamp website</p>
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label">Name:
+                <input required id="name" type="text" placeholder="Enter Your Name"/>
+            </label>
+            
+            <label id="email-label">Email:
+                <input required id="email" type="email" placeholder="E-mail"/>
+            </label>
+                
+            <label id="number-label">Age(optional):
+                <input required id="number" type="number" name="age" placeholder="Age" min="10" max="125"/>
+            </label>
+        </fieldset>
+        
+        <fieldset>
+            <select id="dropdown">
+                <option value1="full-name">Full name</option>
+                <option value2="first-name">First name</option>
+                <option value3="last-name">Last name</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Action Required</legend>
+            <label>Male
+                <input type="radio" name="gender" value="radio-button"/>
+            </label>
+
+            <label>Female
+                <input type="radio" name="gender" value="radio-button"/>
+            </label>
+
+            <label>other
+                <input type="radio" name="gender" value="radio buttons"/>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <label>Weekday
+                <input type="checkbox" value="weekday">
+            </label>
+
+            <label>Weekend
+                <input type="checkbox" value="weekend">
+            </label>
+
+            
+            </label>
+        </fieldset>
+        <textarea type="text" rows="5" cols="30" placeholder="write your comments here"></textarea>
+        <input id="submit" type="submit"value="submit"/>
+        
+        
+    </form>
+    
+</body>
+</html>
